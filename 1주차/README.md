@@ -46,7 +46,7 @@
      ```
      - apache-2.4.46 설치하기
      ```
-     $ cd httpd-2.4.43
+     $ cd httpd-2.4.46
      $ ./configure --prefix=/usr/local/apache2.4 \
      --enable-module=so --enable-rewrite --enable-so \
      --with-apr=/usr/local/apr \
