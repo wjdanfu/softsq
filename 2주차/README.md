@@ -34,3 +34,12 @@ MySQL 외부 접속시 체크리스트
 apt install phpmyadmin
 ```
 자동설치된다.
+주소뒤에 /phpmyadmin/ 을 치고 들어가서 아이디와 패스워드를 입력후 로그인
+
+![phpmyadmin](https://user-images.githubusercontent.com/68707117/107125417-42ab6a00-68ed-11eb-998e-796f8fd874e3.png)
+
+잘되는것을 볼수 있다
+
+### domain 적용
+가비아에서 byeonwoo.shop 도메인을 구매했다.
+### https 적용
