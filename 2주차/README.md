@@ -14,4 +14,23 @@
 ![KakaoTalk_20210206_223700726](https://user-images.githubusercontent.com/68707117/107122787-230c4580-68dd-11eb-81f9-8bcf8e365a95.jpg)
 ---
 ## Task 2
-### AWS 서버구축
+### AWS 서버구축후 외부에서 접속하기
+AWS에서 서버를 구입한후 아이피 주소를 얻는다. winSCP에서 Putty와 연결후 nginx, mysql, php 설치해준다
+
+![php 외부접속](https://user-images.githubusercontent.com/68707117/107124096-10960a00-68e5-11eb-8c61-4c7ea0f08829.png)
+
+### mysql 외부에서 접속하기
+- Datagrip 다운후 mysql과 연결
+
+MySQL 외부 접속시 체크리스트
+1. MySQL 서비스 ON/OFF 확인
+2. mysqld.cnf -> bind address 0.0.0.0 수정 및 확인
+3. 내외부 port 개폐확인(AWS 인/아웃-바운드)
+4. MYSQL 계정 접근 권한을 로컬에서 전역으로 수정 및 확인
+![mysql 외부](https://user-images.githubusercontent.com/68707117/107124079-f4926880-68e4-11eb-9b18-ae66ca211a56.png)
+
+### phpmyadmin 설치
+```
+apt install phpmyadmin
+```
+자동설치된다.
