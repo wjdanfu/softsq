@@ -41,5 +41,22 @@ apt install phpmyadmin
 잘되는것을 볼수 있다
 
 ### domain 적용
-가비아에서 byeonwoo.shop 도메인을 구매했다.
+가비아에서 jungbw.shop 도메인을 구매했다.
+
+구매후 dns설정에서 내 ip주소와 연결한다
+
+![dns설정](https://user-images.githubusercontent.com/68707117/107142100-04a35a00-6970-11eb-8cdb-7f09fb3d4332.png)
+
+주소창에 jungbw.shop을 입력하면 내 ip주소로 자동연결된다.
+
+![도메인연결](https://user-images.githubusercontent.com/68707117/107142149-37e5e900-6970-11eb-9592-9003b2c019ed.png)
+
+만약 DNS_PROBE_FINISHED_NX 오류가 뜰시
+
+참고 ) https://m.blog.naver.com/PostView.nhn?blogId=ak0402&logNo=221546317784&proxyReferer=https:%2F%2Fwww.google.com%2F
+
 ### https 적용
+let's encrypt를 활용한 https 적용입니다
+
+참고 ) https://twpower.github.io/44-set-free-https-by-using-letsencrypt
+![https](https://user-images.githubusercontent.com/68707117/107142698-ff480e80-6973-11eb-9b0e-c698669928a2.png)
